@@ -1,7 +1,7 @@
 body{
     padding:0;
     margin:0;
-  /* overflow: hidden; */
+  overflow: hidden;
 
 }
 h2{
@@ -77,7 +77,7 @@ strong{
     }
     .con img{
         height:150px;
-        /* width: 300px  ; */
+        width: 300px  ;
         transform: scale(2.8);
         position: relative;
         top:-258px;
@@ -89,7 +89,7 @@ strong{
     }
     .option{
         height: 550px;
-        width: 100%;
+        /* width: 100%; */
         display:flex;
         justify-content: center;
          align-items: center;
@@ -97,7 +97,7 @@ strong{
     }
     .option button{
         padding:14px;
-        margin-left: 110px; 
+        /* margin-left: 110px;  */
         background-color:tomato;
         height:150px;
         width : 40%;  
@@ -179,7 +179,34 @@ strong{
         .option button {
            width: 21vh;
            height:95px;
-           margin-left: 5px;
+           /* margin-left: 5px; */
         }
+        
+    }
+    
+    @media screen and (max-width:700px) {
+          .option{
+              /* display: flex !important;
+              flex-direction: column ;
+              justify-content: center !important;
+              align-items: center !important; */
+          }
+        .option button {
+           width: 21vh;
+           height:95px;
+           /* margin-left: 35px; */
+        }
+        .con img{
+        height:150px;
+        width: 124px;
+        transform: scale(2.8);
+        position: relative;
+        top:-258px;
+ 
+        background-color:transparent;
+        border-radius:50%;
+
+        
+    }
         
     }
